@@ -1,13 +1,13 @@
 require 'csv'
 
-namespace :import do 
-  desc "Import merchants from csv"
-
-  task merchants: :environment do 
-    filename = File.join Rails.root, "db/merchants.csv"
-    CSV.foreach(filename) do |row|
-      name, created_at, updated_at = row
-      Merchant.create(name: name, created_at: created_at, updated_at: updated_at)
+desc "Import merchants from csv file"
+  task :import => [:environment] do
+    file = "db/merchants.csv"
+    CSV.foreach(file, headers: true) do |row|
+      Merchant.create({
+        name:  row[1],
+        created_at: row[2],
+        updated_at: row[3]
+      })
     end
-  end
 end
