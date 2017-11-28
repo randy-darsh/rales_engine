@@ -6,7 +6,7 @@ require File.expand_path('../../config/environment', __FILE__)
 abort("The Rails environment is running in production mode!") if Rails.env.production?
 require 'rspec/rails'
 require 'pry'
-# require 'database_cleaner'
+require 'database_cleaner'
 require 'capybara/rails'
 require 'support/factory_bot'
 
@@ -30,16 +30,16 @@ require 'support/factory_bot'
 # Checks for pending migrations and applies them before tests are run.
 # If you are not using ActiveRecord, you can remove this line.
 ActiveRecord::Migration.maintain_test_schema!
-# DatabaseCleaner.strategy = :truncation
+DatabaseCleaner.strategy = :truncation
 
 RSpec.configure do |config|
-  # config.before(:all) do
-  #   DatabaseCleaner.clean
-  # end
+  config.before(:all) do
+    DatabaseCleaner.clean
+  end
 
-  # config.after(:each) do
-  #   DatabaseCleaner.clean
-  # end
+  config.after(:each) do
+    DatabaseCleaner.clean
+  end
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
 
