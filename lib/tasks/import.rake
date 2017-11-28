@@ -40,4 +40,14 @@ desc "Import all csv data"
         updated_at: row[6]
       })
     end
+    invoices = "db/invoices.csv"
+    CSV.foreach(invoices, headers: true) do |row|
+      Invoice.create({
+        customer_id: row[1],
+        merchant_id: row[2],
+        status: row[3],
+        created_at: row[4],
+        updated_at: row[5]
+      })
+    end
   end
