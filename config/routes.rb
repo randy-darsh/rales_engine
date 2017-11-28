@@ -9,4 +9,6 @@ Rails.application.routes.draw do
     end
   end
 
+  get 'api/v1/merchants/most_revenue?quantity=x' => 'search#index'
+
 end
