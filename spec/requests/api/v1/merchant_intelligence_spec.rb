@@ -12,10 +12,13 @@ describe "merchant intelligence" do
     InvoiceItem.create(item: item, invoice: invoice, quantity: 10, unit_price: item.unit_price, created_at: Time.now, updated_at: Time.now)
     InvoiceItem.create(item: item, invoice: invoice2, quantity: 10, unit_price: item.unit_price, created_at: Time.now, updated_at: Time.now)
 
-    get "/api/v1/merchants/most_revenue?quantity=2"
+    x = 2
+    # merchants = Merchant.all
 
-    top_merchants = JSON.parse()
 
+    get "/api/v1/merchants/most_revenue?quantity=#{x}"
+
+    top_merchants = JSON.parse(merchant.total_revenue)
     expect(response).to be_success
     expect(top_merchants.count).to eq(2)
   end
