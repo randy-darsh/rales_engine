@@ -4,7 +4,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       namespace :merchants do
         get '/most_revenue' => 'revenue#index'
-
+        get '/most_items' => 'item#index'
       end
 
       resources :merchants, only: [:index, :show] do
