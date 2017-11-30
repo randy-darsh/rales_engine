@@ -12,6 +12,12 @@ Rails.application.routes.draw do
         get '/find' => "search#show"
       end
 
+      namespace :items do
+        get '/most_revenue' => 'revenue#index'
+        get '/most_items' => 'item#index'
+        # get '/most_best_day'
+      end
+
       resources :merchants, only: [:index, :show] do
         resources :items, only: [:index, :show]
         resources :invoices, only: [:index, :show]
