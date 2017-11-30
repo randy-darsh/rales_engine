@@ -7,6 +7,7 @@ Rails.application.routes.draw do
         get '/most_items' => 'item#index'
         get '/:id/revenue' => 'revenue#show'
         get '/revenue' => 'invoice#index'
+        get '/:id/favorite_customer' => 'customer#show'
       end
 
       resources :merchants, only: [:index, :show] do
@@ -15,5 +16,5 @@ Rails.application.routes.draw do
       end
     end
   end
-  
+
 end
