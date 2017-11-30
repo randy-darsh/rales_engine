@@ -36,6 +36,7 @@ group :development, :test do
   gem 'factory_bot_rails'
   gem 'database_cleaner'
   gem 'active_model_serializers', '~> 0.10.0'
+  gem 'simplecov'
 end
 
 group :development do

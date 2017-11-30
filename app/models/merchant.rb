@@ -24,16 +24,16 @@ class Merchant < ApplicationRecord
   end
 
   def self.total_revenue(filter = nil)
-    if filter[:date]
-      joins(invoices: [:transactions, :invoice_items])
+    if filter[:date].nil?
+          joins(invoices: [:transactions, :invoice_items])
           .merge(Transaction.unscoped.successful)
-          .where(invoices: {created_at: filter[:date]})
+          .where(id: filter[:id])
           .group(:id)
           .sum("(invoice_items.quantity * invoice_items.unit_price)")
     else
       joins(invoices: [:transactions, :invoice_items])
           .merge(Transaction.unscoped.successful)
-          .where(id: filter[:id])
+          .where(invoices: {created_at: filter[:date]})
           .group(:id)
           .sum("(invoice_items.quantity * invoice_items.unit_price)")
     end
