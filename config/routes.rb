@@ -18,6 +18,10 @@ Rails.application.routes.draw do
         get '/:id/best_day' => 'item#show'
       end
 
+      namespace :customers do
+        get '/:id/favorite_merchant' => 'merchant#show'
+      end
+
       resources :merchants, only: [:index, :show] do
         resources :items, only: [:index, :show]
         resources :invoices, only: [:index, :show]
