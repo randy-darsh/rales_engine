@@ -46,4 +46,36 @@ describe "invoices relationships" do
 
     expect(x.count).to eq(1)
   end
+
+  it "returns a collection of associated items" do
+    get "/api/v1/invoices/#{@invoice3.id}/items"
+
+    expect(response).to be_success
+
+    x = JSON.parse(response.body)
+
+    expect(x.count).to eq(2)
+  end
+
+  it "returns the associated customer" do
+    get "/api/v1/invoices/#{@invoice1.id}/customer"
+
+    expect(response).to be_success
+
+    x = JSON.parse(response.body)
+
+    expect(x.count).to eq(3)
+    expect(x["id"]).to eq(@customer1.id)
+  end
+
+  it "returns the associated merchant" do
+    get "/api/v1/invoices/#{@invoice2.id}/merchant"
+
+    expect(response).to be_success
+
+    x = JSON.parse(response.body)
+
+    expect(x.count).to eq(2)
+    expect(x["id"]).to eq(@merchant2.id)
+  end
 end

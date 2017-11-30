@@ -1,256 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/config/environment.rb": [
-        null,
-        1,
-        null,
-        null,
-        1
-      ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/config/application.rb": [
-        1,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/config/boot.rb": [
-        1,
-        null,
-        1
-      ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/config/environments/test.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/config/initializers/application_controller_renderer.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/config/initializers/backtrace_silencers.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/config/initializers/cors.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/config/initializers/filter_parameter_logging.rb": [
-        null,
-        null,
-        null,
-        1
-      ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/config/initializers/inflections.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/config/initializers/mime_types.rb": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/config/initializers/wrap_parameters.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        2,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/config/routes.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/models/merchant.rb": [
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/models/merchant.rb": [
         1,
         1,
         1,
@@ -312,53 +63,16 @@
         null,
         null
       ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/models/application_record.rb": [
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/models/customer.rb": [
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/models/customer.rb": [
         1,
         1,
         1,
         1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/models/item.rb": [
-        1,
-        1,
-        1,
-        1,
-        null,
-        28,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
         null,
         1,
         null,
@@ -371,7 +85,44 @@
         null,
         null
       ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/models/invoice.rb": [
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/models/item.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        105,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/models/invoice.rb": [
         1,
         1,
         1,
@@ -381,42 +132,23 @@
         null,
         null
       ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/models/transaction.rb": [
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/models/transaction.rb": [
         1,
         null,
         1,
         null,
         11,
         null,
-        99,
+        201,
         null
       ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/models/invoice_item.rb": [
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/models/invoice_item.rb": [
         1,
-        1,
-        1,
-        null
-      ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/controllers/api/v1/customers/merchant_controller.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/controllers/application_controller.rb": [
-        1,
-        null
-      ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/serializers/merchant_serializer.rb": [
         1,
         1,
         null
       ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/controllers/api/v1/invoices/transactions_controller.rb": [
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/customers/merchant_controller.rb": [
         1,
         null,
         1,
@@ -426,49 +158,46 @@
         null,
         null
       ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/serializers/transaction_serializer.rb": [
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/application_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/serializers/merchant_serializer.rb": [
         1,
         1,
         null
       ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/controllers/api/v1/invoices/invoice_items_controller.rb": [
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/customers/invoices_controller.rb": [
         1,
         null,
         1,
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/serializers/invoice_item_serializer.rb": [
-        1,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/controllers/api/v1/items/revenue_controller.rb": [
-        1,
-        null,
         1,
         1,
         null,
         null,
         null
       ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/serializers/item_serializer.rb": [
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/serializers/invoice_serializer.rb": [
         1,
+        1,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/customers/transactions_controller.rb": [
         1,
         null,
         1,
-        6,
+        1,
+        1,
+        null,
         null,
         null
       ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/controllers/api/v1/items/item_controller.rb": [
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/serializers/transaction_serializer.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/customers_controller.rb": [
         1,
         null,
         1,
@@ -481,7 +210,232 @@
         null,
         null
       ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/controllers/api/v1/merchants/revenue_controller.rb": [
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/serializers/customer_serializer.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/customers/search_controller.rb": [
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        5,
+        null,
+        null,
+        1,
+        null,
+        1,
+        5,
+        null,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/invoice_items/invoice_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/invoice_items/item_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/serializers/item_serializer.rb": [
+        1,
+        1,
+        null,
+        1,
+        20,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/invoice_items_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/serializers/invoice_item_serializer.rb": [
+        1,
+        1,
+        null,
+        1,
+        12,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/invoice_items/search_controller.rb": [
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        5,
+        null,
+        null,
+        1,
+        null,
+        1,
+        5,
+        1,
+        null,
+        5,
+        null,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/invoices/transactions_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/invoices/invoice_items_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/invoices/items_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/invoices/customer_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/invoices/merchant_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/items/revenue_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/items/item_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/items/invoice_items_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/items/merchant_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/items_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/items/search_controller.rb": [
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        5,
+        null,
+        null,
+        1,
+        null,
+        1,
+        5,
+        1,
+        null,
+        5,
+        null,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/merchants/revenue_controller.rb": [
         1,
         null,
         1,
@@ -501,7 +455,7 @@
         null,
         null
       ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/controllers/api/v1/merchants/item_controller.rb": [
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/merchants/item_controller.rb": [
         1,
         null,
         1,
@@ -510,7 +464,7 @@
         null,
         null
       ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/controllers/api/v1/merchants/invoice_controller.rb": [
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/merchants/invoice_controller.rb": [
         1,
         null,
         1,
@@ -520,7 +474,7 @@
         null,
         null
       ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/serializers/total_revenue_serializer.rb": [
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/serializers/total_revenue_serializer.rb": [
         1,
         1,
         null,
@@ -530,7 +484,7 @@
         null,
         null
       ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/serializers/revenue_serializer.rb": [
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/serializers/revenue_serializer.rb": [
         1,
         1,
         null,
@@ -540,7 +494,7 @@
         null,
         null
       ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/controllers/api/v1/merchants/customer_controller.rb": [
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/merchants/customer_controller.rb": [
         1,
         null,
         1,
@@ -550,12 +504,7 @@
         null,
         null
       ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/serializers/customer_serializer.rb": [
-        1,
-        1,
-        null
-      ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/controllers/api/v1/merchants/item_relationship_controller.rb": [
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/merchants/item_relationship_controller.rb": [
         1,
         null,
         1,
@@ -565,7 +514,7 @@
         null,
         null
       ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/controllers/api/v1/merchants/invoice_relationship_controller.rb": [
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/merchants/invoice_relationship_controller.rb": [
         1,
         null,
         1,
@@ -575,12 +524,49 @@
         null,
         null
       ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/serializers/invoice_serializer.rb": [
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/merchants_controller.rb": [
+        1,
+        null,
         1,
         1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
         null
       ],
-      "/Users/erikasmith/turing/3mod/projects/rales_engine/app/controllers/api/v1/merchants_controller.rb": [
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/merchants/search_controller.rb": [
+        1,
+        null,
+        1,
+        4,
+        null,
+        null,
+        1,
+        4,
+        null,
+        null,
+        1,
+        null,
+        1,
+        8,
+        null,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/transactions/invoice_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/transactions_controller.rb": [
         1,
         null,
         1,
@@ -592,8 +578,59 @@
         null,
         null,
         null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/transactions/search_controller.rb": [
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        5,
+        null,
+        null,
+        1,
+        null,
+        1,
+        5,
+        null,
+        null,
+        null
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/invoices/search_controller.rb": [
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0
+      ],
+      "/Users/randy_darsh/Turing/3module/projects/rales_engine/app/controllers/api/v1/invoices_controller.rb": [
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0
       ]
     },
-    "timestamp": 1512069572
+    "timestamp": 1512080548
   }
 }
