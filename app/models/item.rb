@@ -22,4 +22,14 @@ class Item < ApplicationRecord
       .order("amount_sold DESC")
       .limit(x)
   end
+
+  def best_day
+    invoice_items
+      .joins(invoice: [:transactions])
+      .merge(Transaction.unscoped.successful)
+      .group(:id)
+      .order("invoice_items.quantity DESC")
+      .first
+      .invoice.created_at
+  end
 end
