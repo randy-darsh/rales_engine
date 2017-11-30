@@ -8,6 +8,8 @@ Rails.application.routes.draw do
         get '/:id/revenue' => 'revenue#show'
         get '/revenue' => 'invoice#index'
         get '/:id/favorite_customer' => 'customer#show'
+        get '/find_all' => "search#index"
+        get '/find' => "search#show"
       end
 
       resources :merchants, only: [:index, :show] do
