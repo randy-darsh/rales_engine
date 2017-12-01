@@ -5,7 +5,7 @@ Rails Engine is a JSON API which exposes the SalesEngine data schema.
 Link to project spec for further information:
 http://backend.turing.io/module3/projects/rails_engine
 
-##Getting Started
+## Getting Started
 
 1. Fork this repository on Github.
 2. Clone your forked repository to your server by running this command in your terminal: 
