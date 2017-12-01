@@ -1,24 +1,28 @@
-# README
+# Rails Engine
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails Engine is a JSON API which exposes the SalesEngine data schema.
 
-Things you may want to cover:
+##Getting Started
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Fork this repository on Github.
+2. Clone your forked repository to your server by running this command in your terminal: 
+```
+git clone <Your SSH Key>
+```
+And enter the file:
+```
+cd rales_engine
+```
+3. Run this terminal commmand to bundle all Gems:
+``` 
+bundle exec 
+```
+4. Setup your database with this command: 
+```
+rails db:create db:migrate
+rake import
+```
+5. Boot your server by running
+```
+rails s
+```
